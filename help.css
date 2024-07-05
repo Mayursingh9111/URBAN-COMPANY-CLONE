@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(218, 218, 218);
+}
+.main{
+    width: 50%;
+    margin: 5rem auto;
+}
+.content{
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.content>h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.all-topics{
+    padding: 1rem;
+}
+.all-topics>h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.topic{
+    width: 100%;
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+.topic-name{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* Your styles here */
+    .content>h1{
+        font-size: 1.5rem;
+    }
+    .all-topics>h3{
+        font-size: 1rem;
+    }
+    .main{
+        width: 90%;
+    }
+  }
